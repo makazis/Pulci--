@@ -10,7 +10,6 @@ def run_blackjack(first_card=0,depth=0):
     drawn_card=cards[drawn_card_prime]
     print("The dealer drew a",card_names[drawn_card_prime])
     dealer_pot+=drawn_card
-    cards_drawn=0
 
     drawn_cards=[]
     if first_card!=0:
